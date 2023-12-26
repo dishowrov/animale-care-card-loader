@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .center-image, .orbit {
+    position: absolute;
+  }
+  .parent_div{
+      /* position: relative; */
+      width: 1000px;
+      height: 1000px;
+  }
+
+  .center-image {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .orbit {
+    transform-origin: center bottom;
+  }
